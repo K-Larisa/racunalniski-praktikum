@@ -50,6 +50,17 @@ h2 {margin-top: 2em;
     margin-left: 2em;
 }
 
+.slika p:last-child {font-size: 0.8em;
+
+}
+
 .slika img {width: 100%;
             height: auto;
+            border-radius: 10%;
+            
+
+}
+
+.slika a::before {
+            content:'->'
 }
