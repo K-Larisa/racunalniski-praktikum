@@ -1,0 +1,37 @@
+# VSCode uporabniške nastavitve
+.vscode/
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.toc
+*.fls
+*.log
+*.out
+*.pdf
+*.pyc
+*.synctex.gz
+*.jpg
+*.bib
+latex-pregled/5-prosojnice.tex
+latex-pregled/4-citati.tex
+latex-pregled/3-tabele.tex
+latex-pregled/2-matematika.tex
+latex-pregled/1-osnove.tex
+06-uvod-v-latex/test/latex-test.tex
+
+
+# MacOS
+__MACOSX
+.DS_Store
+
+# Windows
+thumbs.db
+
+# Python
+__pycache__
+
+
+
