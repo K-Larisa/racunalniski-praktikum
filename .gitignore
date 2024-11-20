@@ -15,6 +15,9 @@
 *.synctex.gz
 *.jpg
 *.bib
+*.idx
+*.ilg
+*.ind
 latex-pregled/5-prosojnice.tex
 latex-pregled/4-citati.tex
 latex-pregled/3-tabele.tex
