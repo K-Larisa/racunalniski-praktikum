@@ -21,10 +21,6 @@
 			\includegraphics<7>[width=50mm]{./slike/fig-7.png}%
 		
 \end{columns}
-
-
-
-
 \end{frame}
 				% Spodnje je za nalogo 3.4.
 
@@ -112,12 +108,31 @@
 			% % Točka A
 			 \coordinate [label=below left:{\scriptsize $A$}] (A) at ({-\t},0);
 			 \draw (A) circle (1.5pt);
+			
 			% Točka B
 			\coordinate [label=below right:{\scriptsize $B$}] (B) at ({\t},0);
 			\draw (B) circle (1.5pt);
-			% lok m
-			\coordinate (T') at ({-\td},{\tt});
-			\draw[gray, thin] (T') arc[start angle=300, end angle=45, radius=2] node[left] {\scriptsize $m$};
+			\pause
+			% % Naloga 3.4.2.: Definirajte točko T', v kateri se začne lok m in narišite lok m z oznako.
+			% % Lok je definiran s točko, v kateri se lok začne (ne središče!),
+			%z začetnim in končnim kotom ter radijem.
+			% % Koti so vedno podani enako: kot 0 je v smeri x osi in se veča v nasprotni smeri urinega kazalca.		
+			\coordinate (T') at ({-1.7*\td},{\tt});
+			\draw[gray, thin] (T') node[left] {\scriptsize $m$} arc[start angle=60, end angle=-60, radius=2] ;
+			\pause
+
+			% Naloga 3.4.3.: Definirajte točko T'' in narišite lok n z oznako.
+			\coordinate (T'') at ({1.7*\td},{\tt});
+			\draw[gray, thin] (T'') node[right] {\scriptsize $n$} arc[start angle=120, end angle=240, radius=2] ;
+			\pause
+
+			% Naloga 3.4.4.: Definirajte in narišite točko C.
+			\coordinate [label=below right:{\scriptsize $C$}] (C) at (0,{-0.75*\t});
+			\draw (C) circle (1.5pt);
+			\pause
+
+			% Naloga 3.4.5.: Narišite premico skozi točki T in C.
+			\draw[red, very thick] (0,-2) -- (0,2) ;
 			\end{tikzpicture}
 	\end{columns}
 \end{frame}
